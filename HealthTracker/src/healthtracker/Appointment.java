@@ -20,7 +20,7 @@ package healthtracker;
  * +toString():String
  * 
  *
- * @author dinhtran
+ * @author Tam
  */
 
 import java.time.LocalDate;
