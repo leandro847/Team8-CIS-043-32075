@@ -22,6 +22,8 @@ package healthtracker;
  *
  * @author dinhtran
  */
+
+import java.time.LocalDate;
 public class Appointment {
     private Doctor doctor;
     private Date date;
