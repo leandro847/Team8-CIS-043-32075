@@ -5,10 +5,10 @@ package healthtracker;
  * @author Amy Schmieder
  */
 public class Treatment {
-    private int dbid, userid, frequency;
-    private String name, notes, purpose;
+    private int dbid, userid;
+    private String name, notes, purpose, frequency;
     
-    public Treatment(int dbid, int userid, String name, String notes, String purpose, int frequency){
+    public Treatment(int dbid, int userid, String name, String notes, String purpose, String frequency){
         this.dbid = dbid;
         this.userid = userid;
         this.name = name;
@@ -72,9 +72,9 @@ public class Treatment {
         this.notes = notes;
     }    
     
-    public int getFrequency(){return frequency;}
+    public String getFrequency(){return frequency;}
     
-    public void setFrequency(int freq){
+    public void setFrequency(String freq){
         this.frequency = freq;
     }
     

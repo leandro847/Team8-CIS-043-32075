@@ -19,7 +19,7 @@ public class Medication extends Treatment {
      * @param dose
      * @param quant 
      */
-    public Medication(int dbid, int userid, String name, String notes, String purpose, int frequency, String dose, int quant){
+    public Medication(int dbid, int userid, String name, String notes, String purpose, String frequency, String dose, int quant){
         super(dbid, userid, name, notes, purpose, frequency);
         this.dose = dose;
         this.quantLeft = quant;
